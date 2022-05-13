@@ -130,7 +130,7 @@ nav a.nav-link {
   color: #fff !important;
 }
 
-nav a img {
+nav a img#logo {
   /*Redundancy in case individual padding edit is needed.*/
   padding: 1rem 1rem 1rem 1rem;
   content: url("https://www.udl.cat/export/sites/universitat-lleida/.galleries/imagenes-estructura/logo-udl-cabecera.png_1747225888.png");

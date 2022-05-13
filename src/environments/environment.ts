@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  API: 'https://rhizomer-api.dev.rhizomik.net'
+  //API: 'https://rhizomer-api.dev.rhizomik.net'
+  API: 'https://experts-api.rhizomik.net'
 };
 
 /*
