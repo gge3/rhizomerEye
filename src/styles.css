@@ -205,7 +205,8 @@ li.page-item a.page-link {
   color: black;
   padding: 12px 16px;
   text-decoration: none;
-  display: block;
+  display: flex;
+  flex-direction:row;
 }
 
 .dropdown-content a:hover {
@@ -223,6 +224,16 @@ li.page-item a.page-link {
 .dropdown img{
   max-width: 16px;
 }
+/*
+.nav-link, .navbar-toggler-icon {
+  display: inline-block;
+}
+
+.navbar-light .navbar-toggler {
+  color:#fff;
+  border-color:#fff;
+}
+*/
 
 /*=============================================================*/
 /*DARKO*/
