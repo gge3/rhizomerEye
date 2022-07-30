@@ -171,6 +171,7 @@ li.page-item a.page-link {
   color: #15597e;
 }
 
+/*Focus outline color, for keyboard navigation*/
 *:focus {
   outline: 3px solid #5b9dd9;
   outline-offset: 2px;
@@ -179,7 +180,6 @@ li.page-item a.page-link {
 /*Button styles*/
 .dropbtn {
   background: none;
-
   color: white;
   padding: 16px;
   font-size: 16px;
@@ -224,7 +224,7 @@ li.page-item a.page-link {
 .dropdown img{
   max-width: 16px;
 }
-/*
+/*DEPRECATED
 .nav-link, .navbar-toggler-icon {
   display: inline-block;
 }
@@ -236,51 +236,3 @@ li.page-item a.page-link {
 */
 
 /*=============================================================*/
-/*DARKO*/
-/*
-body {
-  background-color: #1e2124 !important;
-  color: #fff;
-}
-
-.facet {
-  background-color:#282b30;
-  border-color: #424549;
-}
-
-.card-title {
-  color: #fff;
-}
-
-.card.range.p-2.mb-1 {
-  background-color: #1e2124;
-}
-
-.badge-light{
-  color: #1e2124;
-}
-
-h5 {
-  color: #d888ce;
-}
-
-ul.breadcrumb {
-  background-color: #282b30 !important;
-  border-color: #424549;
-  color: #fff;
-}
-
-.card.mb-2 {
-  background-color: #282b30;
-  border-color: #424549;
-  color: #fff;
-}
-
-ul.list-group.list-group-flush li {
-  background-color: #1e2124;
-  border-color: #424549;
-  color: #fff;
-}
-*/
-
-
