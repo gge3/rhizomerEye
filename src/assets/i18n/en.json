@@ -1,15 +1,16 @@
 {
     "navbar": {
-        "lang": "Language",
-        "en": "English (EN)",
-        "ca": "Catalan (CA)",
-        "es": "Spanish (ES)"
+        "about": "About",
+        "datasets": "Datasets",
+        "list": "List",
+        "new": "New",
+        "administration": "Administration",
+        "users": "Users"
     },
-    
-    "network": {
+    "overview": {
         "details": "Details",
-        "search": "Search all...",
-        "search2": "Browse all classes",
+        "searchAll": "Search all...",
+        "searchClasses": "Browse all classes",
         "sorry": "Sorry, suggestions could not be loaded.",
         "three-ch": "Type 3 chars...",
         "no-classes": "No classes found",
@@ -21,21 +22,26 @@
         "relations": "relations with frequency",
         "show-all": "show all relations",
         "all-rel": "all relations",
-        "show-less": "show less relations"
+        "show-less": "show less relations",
+        "warning-showing-just": "Warning: showing just top",
+        "classes": "classes"
     },
-
     "search": {
         "facets": "Facets",
-        "facets-mid": "facets",
+        "instances": "instances",
         "no-facets": "No facets retrieved",
         "no-instances": "No instances retrieved",
         "loading": "Loading...",
-        "instances": "Instances",
+        "Instances": "Instances",
         "showing": "Showing",
         "outof": "out of",
         "matches": "matches",
         "explore":"Explore all matches using the Type facet",
         "filter": "filtered from",
         "facet-search": "Search all facets values"
+    },
+    "resource": {
+        "is": "is",
+        "of": "of"
     }
 }

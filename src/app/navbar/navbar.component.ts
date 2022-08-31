@@ -11,21 +11,10 @@ export class NavbarComponent implements OnInit {
   public isCollapsed: boolean;
 
   constructor(private authService: AuthenticationBasicService,
-    private translate: TranslateService) {
-      //we need to substract some info for ngx-translate to recognize the language
-      alert(navigator.language);
-    if (  navigator.language.substring(0,2) == 'ca' ||
-          navigator.language.substring(0,2) == 'es' || 
-          navigator.language.substring(0,2) == 'en' 
-        ){
-        translate.setDefaultLang(navigator.language.substring(0,2));
-      } else {
-        translate.setDefaultLang('en');
-      };
-      
-    }
-
-    private userLang:string;
+              private translate: TranslateService) {
+    //we need to substract some info for ngx-translate to recognize the language
+    translate.setDefaultLang(navigator.language.substring(0,2));
+  }
 
   ngOnInit() {
     this.isCollapsed = true;
@@ -42,8 +31,8 @@ export class NavbarComponent implements OnInit {
   useLanguage(language: string): void {
     this.translate.use(language);
   }
-  test () {
-    this.userLang = navigator.language;
-    alert ("The language is: " + this.userLang.substr(0,2));
-  } 
+
+  currentLanguage(): string {
+    return this.translate.currentLang || this.translate.getDefaultLang();
+  }
 }
